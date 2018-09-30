@@ -1,4 +1,4 @@
-# UML-class-diagram-Banking-Sysetm
+# UML-class-diagram-Banking-System
 Converts a problem statement into class diagram.
 ## Problem Statement
 *"Develop a **Banking System** in which customer can open account. The account has the functionality of deposit, withdraw and get balance. There are two kinds of account; Current Account and Saving Account. Each kind of accounts withdraw in different ways. The account is identified by account number."*
