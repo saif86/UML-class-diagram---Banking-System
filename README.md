@@ -1,6 +1,6 @@
 # UML-class-diagram-Banking-System
 Converts a problem statement into class diagram.
-## Problem Statement
+## Task 1 - Problem Statement to UML Class conversion
 *"Develop a **Banking System** in which customer can open account. The account has the functionality of deposit, withdraw and get balance. There are two kinds of account; Current Account and Saving Account. Each kind of accounts withdraw in different ways. The account is identified by account number."*
 
 ---
@@ -21,3 +21,6 @@ Besides problem statement; objects, properties, and functions of a system can al
 ![banking system](https://user-images.githubusercontent.com/41892175/46243798-2c7e6c80-c40a-11e8-8868-c29e84472435.jpg)
 
 To learn how to convert Problem Statment into UML class diagram click here: [Step-wise procedure to translate a problem statement into class diagram](https://github.com/saif86/Object-Oriented-Modeling---Graphic-Editor)
+
+## Task 2 - Converting UML Class Diagram to C++ code
+Map (implement/Code) the above class diagram into C++.
