@@ -1,8 +1,25 @@
-#include "SavingsAccount.h" 
+#include "SavingsAccount.h"  // class implemented
+using namespace std;
 
-SavingsAccount::SavingsAccount(float aValue, int anAccountID) : Account(aValue,anAccountID) { } 
+// File scope starts here 
 
-void SavingsAccount::Withdraw(float aValue) { 
-	cout << "Savings Account." << endl; 
-	Account::Withdraw(aValue); 
+/////////////////////////////// PUBLIC ///////////////////////////////////////
+
+//============================= LIFECYCLE ====================================
+
+// SavingsAccount Default + Overloaded Constructor
+SavingsAccount::SavingsAccount(int aAccountID, float aValue) : Account(aAccountID, aValue) {
+	// base class initilzation using member initlizer list
 }
+// end SavingsAccount constructor
+
+
+//============================= OPERATIONS ===================================
+
+// Overriding function that withdraws amount from SavingsAccount.
+void SavingsAccount::Withdraw(float aAmount) {
+	cout << "Savings account." << endl;
+	Account::Withdraw(aAmount);
+}
+// end function Withdraw
+
